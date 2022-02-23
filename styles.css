@@ -1,0 +1,106 @@
+ body {
+     color: white;
+     text-align: center;
+     font-family: 'Benne', serif;
+     background-color: black;
+
+ }
+
+ .title {
+     font-size: 32px;
+     height: 260px;
+     font-weight: 800;
+     padding: 0 20px;
+ }
+
+ .button {
+     display: flex;
+     justify-content: center;
+ }
+
+ p {
+     font-size: 30px;
+     font-weight: 800;
+ }
+
+
+ .firstImage {
+     height: 350px;
+ }
+
+ .yes-button {
+     height: 60px;
+ }
+
+ .no-button {
+     height: 60px;
+ }
+
+ .y-button,
+ .n-button {
+     display: none;
+     height: 40px;
+
+ }
+
+ .y3s-button,
+ .n0-button {
+     display: none;
+     height: 40px;
+ }
+
+ .Part-Two-Yes {
+     font-family: 'Benne', serif;
+     display: none;
+     color: white;
+ }
+
+
+ .Part-Two-No {
+     font-family: 'Benne', serif;
+     display: none;
+     color: white;
+     transition-delay: 35s;
+     transition: color 35s, transform 35s;
+ }
+
+ .Part-Two-No:hover {
+     color: red;
+     transform: rotate(0deg);
+ }
+
+ .Inter {
+     font-family: 'Benne', serif;
+     display: none;
+     color: white;
+
+ }
+
+
+ .Two-No {
+     font-family: 'Benne', serif;
+     display: none;
+     color: white;
+     transition-delay: 30s;
+     transition: color 30s, transform 30s;
+ }
+
+ .Two-No:hover {
+     color: red;
+     transform: rotate(0deg);
+ }
+
+ .Finale {
+     display: none;
+     font-family: 'Benne', serif;
+ }
+
+
+ .-img {
+     height: 300px;
+ }
+
+ h1 {
+     font-size: 30px;
+
+ }
